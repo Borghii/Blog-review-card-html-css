@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh; /* Altura total de la pantalla */
+    text-align: center;
+    font-family: 'Figtree', sans-serif;
+
+    margin: 0;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+    position: relative;
+
+    
+}
+
+.card{
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    text-align: left;
+
+    background-color:hsl(0, 0%, 100%);
+    width: auto; /* Ajusta según el contenido */
+    height: auto; /* Ajusta según el contenido */
+
+    border: 1px solid;
+
+    box-shadow: 10px 10px black;
+}
+
+p{
+    width: 340px;
+    
+}
+
+
+img{
+    border-radius: 20px;
+    width: 350px; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    height: 100%; /* Hace que la imagen ocupe toda la altura del contenedor */
+    object-fit: contain; /* Ajusta la imagen para cubrir el contenedor */
+    
+}
+
+
+.card-tag{
+
+    width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    margin: 16px 0 16px 0;
+
+    padding: 6px 13px ;
+    border-radius: 5px;
+}
+
+.card-author{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    
+    justify-content: space-between;
+
+    width: 200px;
+
+    gap: 10px;
+
+}
+
+.card-author > img{
+    width: 30px;
+}
+
+.card-description{
+    color: #000000b3;
+}
+
+
+h2{
+    width: fit-content;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+}
