@@ -7,7 +7,7 @@
 
 ### Links
 
-🚀 [Ver el Proyecto en Vivo](https://borghii.github.io/QR-code-html-css-1/)
+🚀 [Ver el Proyecto en Vivo](https://borghii.github.io/Blog-review-card-html-css-2/)
 
 
 
