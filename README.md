@@ -3,7 +3,7 @@
 ## Overview
 
 
-![alt text](assets/images/image.png)
+![alt text](/docs/image.png)
 
 ### Links
 
