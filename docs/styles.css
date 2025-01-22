@@ -6,6 +6,10 @@ body{
 
     margin: 0;
 
+    padding: 20px; /* Espaciado interno */
+
+    box-sizing: border-box;
+
 
 }
 
@@ -19,6 +23,7 @@ body{
 
 
     position: relative;
+
 
     
 }
@@ -37,6 +42,8 @@ body{
 
     border: 1px solid;
 
+    max-width: 90%;
+
     box-shadow: 10px 10px black;
 }
 
@@ -48,7 +55,7 @@ p{
 
 img{
     border-radius: 20px;
-    width: 350px; /* Hace que la imagen ocupe todo el ancho del contenedor */
+    width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
     height: 100%; /* Hace que la imagen ocupe toda la altura del contenedor */
     object-fit: contain; /* Ajusta la imagen para cubrir el contenedor */
     
