@@ -3,7 +3,7 @@
 ## Overview
 
 
-![alt text](/blog-preview-card-main/assets/images/image.png)
+![alt text](assets/images/image.png)
 
 ### Links
 
